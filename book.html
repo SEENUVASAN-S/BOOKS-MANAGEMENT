@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>BOOK-SKY</title>
+    <link rel="stylesheet" href="booksky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="navbar">BOOKSKY</h1>
+        <div class="main">
+            <div class="item1">
+                <h3>rich dad poor dad</h3>
+                <h6>robert clin</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, vero nemo. Minus dolorem rerum, repudiandae commodi perferendis, dolorum magni doloremque in facere sed recusandae fugit officiis? Veritatis commodi atque similique nam distinctio aliquid dolorem provident.</p>
+                <button onclick="del(event)">delete</button>
+            </div>
+        </div>
+        <button class="plus" id="addbookk">+</button>
+        <div class="popu"></div>
+        <div class="popup-box">
+            <h2>ADD</h2>
+            <form>
+                <input type="text" placeholder="book-title" class="title">
+                <input type="text" placeholder="author" class="author">
+                <textarea class="description">add small description!</textarea>
+                <button class="add">add</button>
+                <button class="cancel">cancel</button>
+            </form>
+        </div>
+    <script src="book-sky.js"></script>
+</body>
+</html>
